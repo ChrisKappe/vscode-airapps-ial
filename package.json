@@ -1,24 +1,29 @@
 {
     "name": "vscode-airapps-ial",
-    "displayName": "AirApps iAL",
+    "displayName": "iAL",
     "description": "This extension will add some intelligence to AL. Just type the name of you action, and iAL will find best image for your button among 1400+ standard images using machine learning algorithms.",
     "version": "0.0.1",
     "publisher": "AirApps",
     "engines": {
         "vscode": "^1.19.0"
     },
+    "author": {
+        "email": "dmitry.katson@gmail.com",
+        "name": "Dmitry Katson"
+    },
     "categories": [
-        "Other"
+        "Extension Packs","Other"
     ],
     "activationEvents": [
-        "onCommand:extension.sayHello"
+        "onCommand:extension.getimage",
+        "onLanguage:al"
     ],
     "main": "./out/extension",
     "contributes": {
         "commands": [
             {
-                "command": "extension.sayHello",
-                "title": "Hello World"
+                "command": "extension.getimage",
+                "title": "iAL: Get image for action"
             }
         ]
     },
