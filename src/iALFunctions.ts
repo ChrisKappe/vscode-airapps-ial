@@ -28,8 +28,8 @@ export function getimage ()
     //console.log(alActionName);
     let request = require('request');
 
-    const uri = 'https://europewest.services.azureml.net/subscriptions/d0e75c3ca34a455b9d44667cd10c9756/services/350d7fdaa6984a18a05de3e8ad4df5ba/execute?api-version=2.0&format=swagger';
-    const apiKey = 'Hep3sjO/ec3mOdeCGbQE6p2PaLUsZL6OpgTp3YEJIcMtomkzu7bMCUt6LxzT73ixW6YPNmjwCXOaVQ7VeJiq8g==';
+    const uri = 'https://europewest.services.azureml.net/workspaces/8875ef269b164df68811b465e832ec93/services/a0b10602cc4a4b4ca9f39fcba80ef3bf/execute?api-version=2.0&format=swagger';
+    const apiKey = 'PVs/Hj/zCVMnVcIjm7dgDX/rE8hY5KCae3yN40RxFmSw+8++ELK+SsOWxilUibpthsIrooTeUYfA87vA1DIptw==';
     
     let data = {
         "Inputs": {
