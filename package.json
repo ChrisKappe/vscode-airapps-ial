@@ -11,9 +11,14 @@
         "email": "dmitry.katson@gmail.com",
         "name": "Dmitry Katson"
     },
+    "icon": "iAL_logo.png",
     "categories": [
         "Extension Packs","Other"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dkatson/vscode-airapps-ial"
+    },
     "activationEvents": [
         "onCommand:extension.getimage",
         "onLanguage:al"
