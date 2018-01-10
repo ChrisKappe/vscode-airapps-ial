@@ -1,65 +1,54 @@
-# vscode-airapps-ial README
+# AirApps iAL
 
-This is the README for your extension "vscode-airapps-ial". After writing up a brief description, we recommend including the following sections.
+Make your development in AL for Dynamics NAV and Dynamics365 "Tenerife" smarter. If you spend too much time selecting a picture for an action from a list of 1400+ standard images, then this extension is for you. 
+
+Just type the name of you action, and iAL will propose best image for it using machine learning algorithms in less than 1 second!
+
+[![Marketplace](https://vsmarketplacebadge.apphb.com/version-short/MarkBrummel.allint.svg)](https://marketplace.visualstudio.com/items?itemName=MarkBrummel.allint)
+[![Installs](https://vsmarketplacebadge.apphb.com/installs/MarkBrummel.allint.svg)](https://marketplace.visualstudio.com/items?itemName=MarkBrummel.allint)
+[![GitHub issues](https://img.shields.io/github/issues/markbrummel/vscode-allint.svg)](https://github.com/markbrummel/vscode-allint/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/markbrummel/vscode-allint.svg)](https://github.com/markbrummel/vscode-allint/pulls)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/markbrummel/vscode-allint/master/LICENSE)
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
+* Create Action on your page as normal (using *tAction* snippet for example)
+* Add *Image* property
+* Press `Cmd+Shift+P` on OSX or `Ctrl+Shift+P` on Windows
+* Select `iAL: Get image for action`
+* Type the purpose of your action (name or short description)
+* Feel the magic!
 
 \!\[feature X\]\(images/feature-x.png\)
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+* iAL extension is developed for AL developers, so you need [AL extension](https://marketplace.visualstudio.com/items?itemName=ms-dynamics-smb.al)
 
-## Extension Settings
+* Name of your action should be in English
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+> Tip: Azure ML model was trained on standard NAV2018W1 version. [Dataset](https://getbridgeapp.co/docs/msdynnavactions) includes 9000+ standard actions.
+So to get better results - name your action according standard name guidelines. 
 
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
 
 ## Known Issues
+* Support only English action name
+* Images will be selected from NAV2018 version
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+## Future ideas
+
+* Autodetect name of action
+* Propose *Application Area* property
+* Support other NAV versions
+
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+Notes for the released versions
 
-### 1.0.0
+### 0.0.1
 
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on OSX or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on OSX or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (OSX) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+Initial release
 
 **Enjoy!**

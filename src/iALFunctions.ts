@@ -29,33 +29,12 @@ export function getimage ()
         //console.log(alActionName);
         let request = require('request');
 
-        const uri = 'https://europewest.services.azureml.net/workspaces/8875ef269b164df68811b465e832ec93/services/a0b10602cc4a4b4ca9f39fcba80ef3bf/execute?api-version=2.0&format=swagger';
-        const apiKey = 'PVs/Hj/zCVMnVcIjm7dgDX/rE8hY5KCae3yN40RxFmSw+8++ELK+SsOWxilUibpthsIrooTeUYfA87vA1DIptw==';
-    
-        let data = 
-        {
-            "Inputs": 
-            {
-                "input1":
-                [
-                    {
-                    'Text on Action': alActionName
-                    }
-                ],
-            },
-            "GlobalParameters": {}
-        }
-    
+        const uri = "https://get-nav-actionimage.azurewebsites.net/api/HttpTriggerTS1?code=7Ch8YYjHchuECOms3rhC0gbFfHXWSzgqBLfuBrArW1laUr0Ng048iw=="+"&alActionName="+alActionName;
+        
         const reqOptions = 
         {
             uri: uri,
             method: "POST",
-            headers: 
-            {
-             "Content-Type": "application/json",
-             "Authorization": "Bearer " + apiKey,
-            },
-            body: JSON.stringify(data)
         }
     
         request(reqOptions, function (error, response, body) 
@@ -71,13 +50,11 @@ export function getimage ()
                 return;
             }
 
-            let jsonObject = JSON.parse(body);
-
-            let alActionImage =  jsonObject.Results.output1[0]["Scored Labels"];
+            let alActionImage =  body;
 
             window.activeTextEditor.edit(editBuilder => 
             {
-                editBuilder.insert(window.activeTextEditor.selection.active,'"' + alActionImage + '";\n'); //TODO change alActionName => alImageName
+                editBuilder.insert(window.activeTextEditor.selection.active,alActionImage + ';\n'); 
             })
    
         })
