@@ -47,7 +47,7 @@ So to get better results - name your action according standard name guidelines.
 
 Notes for the released versions
 
-### 0.0.1
+### 0.1.0
 
 Initial release
 

@@ -19,7 +19,7 @@ export function getimage ()
     // Step 1 is to ask user for the name or english caption of action 
     //TODO : find action name automatically
 
-    window.showInputBox({prompt: 'What is the name of your button? '})
+    window.showInputBox({prompt: 'What is the name of your action? '})
     .then(alActionName => 
     {
         if (alActionName === undefined) {
