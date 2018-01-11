@@ -13,7 +13,8 @@
     },
     "icon": "iAL_logo.png",
     "categories": [
-        "Extension Packs","Other"
+        "Extension Packs",
+        "Other"
     ],
     "repository": {
         "type": "git",
