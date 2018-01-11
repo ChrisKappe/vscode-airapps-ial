@@ -3,7 +3,7 @@
     "displayName": "iAL",
     "description": "This extension will add some intelligence to AL. Just type the name of your action, and iAL will find the best image for it, among 1400+ standard images using machine learning algorithms.",
     "version": "0.1.0",
-    "publisher": "AirApps",
+    "publisher": "dkatson",
     "engines": {
         "vscode": "^1.19.0"
     },
