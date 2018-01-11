@@ -4,11 +4,11 @@ Make your development in AL for Dynamics NAV and Dynamics365 "Tenerife" smarter.
 
 Just type the name of you action, and iAL will propose best image for it using machine learning algorithms in less than 1 second!
 
-[![Marketplace](https://vsmarketplacebadge.apphb.com/version-short/MarkBrummel.allint.svg)](https://marketplace.visualstudio.com/items?itemName=MarkBrummel.allint)
-[![Installs](https://vsmarketplacebadge.apphb.com/installs/MarkBrummel.allint.svg)](https://marketplace.visualstudio.com/items?itemName=MarkBrummel.allint)
-[![GitHub issues](https://img.shields.io/github/issues/markbrummel/vscode-allint.svg)](https://github.com/markbrummel/vscode-allint/issues)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/markbrummel/vscode-allint.svg)](https://github.com/markbrummel/vscode-allint/pulls)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/markbrummel/vscode-allint/master/LICENSE)
+[![Marketplace](https://vsmarketplacebadge.apphb.com/version-short/dkatson.vscode-airapps-ial.svg)](https://marketplace.visualstudio.com/items?itemName=dkatson.vscode-airapps-ial)
+[![Installs](https://vsmarketplacebadge.apphb.com/installs/dkatson.vscode-airapps-ial.svg)](https://marketplace.visualstudio.com/items?itemName=dkatson.vscode-airapps-ial)
+[![GitHub issues](https://img.shields.io/github/issues/dkatson/vscode-airapps-ial.svg)](https://github.com/dkatson/vscode-airapps-ial/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/dkatson/vscode-airapps-ial.svg)](https://github.com/dkatson/vscode-airapps-ial/pulls)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/dkatson/vscode-airapps-ial/master/LICENSE)
 
 ## Features
 
@@ -19,7 +19,7 @@ Just type the name of you action, and iAL will propose best image for it using m
 * Type the purpose of your action (name or short description)
 * Feel the magic!
 
-\!\[feature X\]\(images/feature-x.png\)
+![Get Image](src/images/iAL.getimage.gif)
 
 
 ## Requirements
