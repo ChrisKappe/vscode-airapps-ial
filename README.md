@@ -19,7 +19,7 @@ Just type the name of you action, and iAL will propose best image for it using m
 * Type the purpose of your action (name or short description)
 * Feel the magic!
 
-![Get Image](src/images/iAL.getimage.gif)
+![Get Image](images/iAL.getimage.gif)
 
 
 ## Requirements

@@ -11,7 +11,7 @@
         "email": "dmitry.katson@gmail.com",
         "name": "Dmitry Katson"
     },
-    "icon": "/src/images/iAL_logo.png",
+    "icon": "images/iAL_logo.png",
     "categories": [
         "Extension Packs",
         "Other"
@@ -49,6 +49,7 @@
     "dependencies": {
         "opn": "^4.0.2",
         "request": "^2.83.0",
+        "tsc": "^1.20150623.0",
         "vsce": "^1.35.0"
     }
 }
