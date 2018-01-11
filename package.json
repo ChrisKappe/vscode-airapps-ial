@@ -45,5 +45,10 @@
         "vscode": "^1.1.6",
         "@types/node": "^7.0.43",
         "@types/mocha": "^2.2.42"
+    },
+    "dependencies": {
+        "opn": "^4.0.2",
+        "request": "^2.83.0",
+        "vsce": "^1.35.0"
     }
 }
